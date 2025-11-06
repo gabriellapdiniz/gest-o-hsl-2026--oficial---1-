@@ -1,29 +1,32 @@
 {
-  "name": "gestão-hsl-2026-(oficial)",
+  "name": "gestao-hsl-2026-oficial",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "react-dom": "^18.2.0",
     "react": "^18.2.0",
-    "react-router-dom": "^6.23.1",
-    "@fullcalendar/core": "6.1.11",
-    "@fullcalendar/react": "6.1.11",
-    "@fullcalendar/daygrid": "6.1.11",
-    "@fullcalendar/timegrid": "6.1.11",
-    "@fullcalendar/interaction": "6.1.11",
-    "firebase": "^12.5.0",
-    "@google/genai": "^1.28.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "@fullcalendar/core": "6.1.8",
+    "@fullcalendar/react": "6.1.8",
+    "@fullcalendar/daygrid": "6.1.8",
+    "@fullcalendar/timegrid": "6.1.8",
+    "@fullcalendar/interaction": "6.1.8",
+    "firebase": "^10.4.0",
+    "@google/generative-ai": "^0.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/node": "^20.8.2",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   }
 }
