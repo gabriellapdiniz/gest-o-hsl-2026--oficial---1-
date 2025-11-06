@@ -1,0 +1,5 @@
+{
+  "name": "GESTÃO HSL 2026 (oficial)",
+  "description": "Uma aplicação completa para gerenciar alunos, professores, agendamentos, finanças e comunicação interna de uma escola de idiomas. Inclui dashboard, cadastros, calendário de aulas, controle de pagamentos e mural de avisos.",
+  "requestFramePermissions": []
+}
